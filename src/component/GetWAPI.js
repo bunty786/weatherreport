@@ -4,8 +4,7 @@ import { WiStrongWind } from "react-icons/wi";
 import { WiHumidity } from "react-icons/wi";
 import { AiFillEye } from "react-icons/ai";
 
-<head>
-    
+ <head>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
 </head>
 
