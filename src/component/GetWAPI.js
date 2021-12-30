@@ -4,8 +4,10 @@ import { WiStrongWind } from "react-icons/wi";
 import { WiHumidity } from "react-icons/wi";
 import { AiFillEye } from "react-icons/ai";
 
-
-
+<head>
+    
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
+</head>
 
 const GetWAPI =()=>{
     const [city,setCity]=useState(null)
@@ -31,6 +33,7 @@ const GetWAPI =()=>{
              </div>
         }
      }
+
 return(
     <>
     <div className="Card">
