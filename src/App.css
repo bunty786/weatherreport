@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@1,300&display=swap');
+
+body{
+    
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  background-color: #222;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+/* .mainDiv{
+   
+     border-radius: 30px;
+     background-color: #000000d0;
+     width: 200%;
+
+} */
+.mainDiv{
+    background-color: #000000d0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 520px;
+    width: 100%;
+    /* padding-right: -100px; */
+}
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.weatherData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hum_vis{
+    display: flex;
+}
+.padding{
+    padding-right: 80px;
+}
+.btndiv{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.searchyc{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+.InputSearch{
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 250px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tempPtag{
+    font-size: 70px;
+    margin-top: -10px;
+    font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.minmax{
+    display: flex;
+    flex-direction: row;
+    margin-top: -90px;
+    margin-bottom: 70px;
+    font-size: 13px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.min{
+    padding-right: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.moreinfo{
+    display: flex;
+    flex-direction: column;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    margin-top: -20px;    
+}
+/* .lastrow{} */
+/* .myReact-icons{
+    height: 40px;
+} */
+/* .wiraindropPTAG{
+    padding-top: -20px  ;
+} */
+/* .wiraindropPTAG{
+    font-size: 16px;
+} */
+.wiraindropPTAG{
+    margin-left: -18px;
 }
